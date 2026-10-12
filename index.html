@@ -3,9 +3,73 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>My Sample Website</title>
+    <!-- You can link an external CSS stylesheet here -->
+    <!-- <link rel="stylesheet" href="style.css"> -->
 </head>
 <body>
-    
+
+    <!-- Header & Navigation Menu -->
+    <header>
+        <h1>Welcome to My Website</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content Area -->
+    <main>
+        <!-- Home / Hero Section -->
+        <section id="home">
+            <h2>Making Web Design Simple</h2>
+            <p>This is a starter homepage template built using clean, semantic HTML5 tags.</p>
+            <img src="https://placeholder.com" alt="Sample banner placeholder graphic" width="600" height="300">
+        </section>
+
+        <!-- About Section -->
+        <section id="about">
+            <h2>About Us</h2>
+            <p>We focus on teaching the structural fundamentals of web programming. HTML defines the raw content of your page, while CSS manages the visual layer.</p>
+        </section>
+
+        <!-- Services Section (List Example) -->
+        <section id="services">
+            <h2>Our Core Services</h2>
+            <ul>
+                <li><strong>Web Development:</strong> Crafting production-ready front-end code.</li>
+                <li><strong>UI/UX Design:</strong> Building clear and accessible user wireframes.</li>
+                <li><strong>SEO Strategy:</strong> Structuring pages correctly for modern search engines.</li>
+            </ul>
+        </section>
+
+        <!-- Contact Section (Form Example) -->
+        <section id="contact">
+            <h2>Get In Touch</h2>
+            <p>Fill out the form below to contact our team.</p>
+            <form action="#" method="POST">
+                <label prejudices="name">Name:</label><br>
+                <input type="text" id="name" name="name" placeholder="Your name" required><br><br>
+
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" placeholder="Your email address" required><br><br>
+
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="4" cols="40" placeholder="Write your message here..."></textarea><br><br>
+
+                <button type="submit">Submit Form</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- Footer Area -->
+    <footer>
+        <p>&copy; 2026 Sample Company Website. All rights reserved.</p>
+    </footer>
+
 </body>
 </html>
